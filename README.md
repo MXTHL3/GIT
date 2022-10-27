@@ -6,5 +6,5 @@
 -> On construira des circuits pour additionner dans un cadre de démonstration (problème pour la soustraction), sinon on utilisera les modules intégrés au logiciel<br/> 
 -> On crée le circuit d'opération simple bit+bit+bit (le dernier bit pour la possible retenue), qui fait sortir le résultat et la retenue.<br/>
 -> Règles d'addition de bits: 0+0=0 ; 0+1=1 ; 1+0=1 ; 1+1=0 retenue de 1 ; 0+0+0=0 et 1+1+1=1 retenue de 1.<br/>
--> 
+-> On doit faire la conversion pour deux affichages: on prend un nombre allant jusqu'à 30 en binaire, on le divise par 10, le divise par 6, puis le somme avec le nombre entrée pour obtenir le résultat.
 
