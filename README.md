@@ -1,6 +1,8 @@
 *Calculatrice sous le logiciel de circuits logiques [Logisim](https://fr.wikipedia.org/wiki/Logisim)*
 
-Étapes:<br/>
+*Objectif:* faire des additions/soustractions de 4 bits et 4 bits/4 chiffres et 4 chiffres, pouvoir afficher les chiffres/nombres en base 10 avec l'affichage 7 segments.
+
+*Étapes:*<br/>
 -> Création d'un [afficheur à 7 segments](https://www.linternaute.fr/dictionnaire/fr/definition/afficheur-7-segments/): 4 bits en entrée (ici on va jusqu'à 1001, soit 9). En utilisant des portes **NON** et **ET**, on peut faire pour chaque cas.<br/>
 ![7segments](https://user-images.githubusercontent.com/116813446/198298923-47e651c7-81fc-47f8-9f5f-eaed45dcc55e.PNG)<br/>
 -> On construira des circuits pour additionner dans un cadre de démonstration (problème pour la soustraction), sinon on utilisera les modules intégrés au logiciel. Pour chaque fin d'addition/de soustraction, on mettra des sous-circuits **7-segments** avec affichages.<br/> 
